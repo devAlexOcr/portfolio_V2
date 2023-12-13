@@ -1,0 +1,38 @@
+#cv {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cv > * {
+    width: 90%;
+}
+
+h2 {
+    font-size: 3vh;
+    color: rgb(255, 199, 44);
+    margin: 0;
+}
+h3 {
+    font-size: 2vh;
+}
+
+#openclassrooms, #bts, #freelance, #dev_openclassrooms, #technicien {
+    line-height: 0.1vh;
+}
+
+#formation > div, #experience > div {
+    margin: 1vw;
+    padding: 0.1vh;
+}
+
+#formation, #experience {
+    width: 30%;
+    padding: 3%;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+
+}
