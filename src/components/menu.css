@@ -1,0 +1,19 @@
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu i {
+    font-size: 2.5vw;
+    color: grey;
+}
+
+.btn_menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.btn_menu:hover i {
+    color: white!important;
+}
