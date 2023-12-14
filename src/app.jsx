@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
-import Navbar  from './components/menu';
-import Aboutme from './components/aboutme';
-import Cv from './components/cv';
-import Projets from './components/projets';
-import Contact from './components/contact';
+import Menu  from './components/menu';
+import Aboutme from './components/aboutme/aboutme';
+import Cv from './components/cv/cv';
+import Projets from './components/projet/projets';
+import Contact from './components/contact/contact';
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
 
     return (
         <section id='Home'>
-           <Navbar onUpdate={handleUpdate}></Navbar>
+           <Menu onUpdate={handleUpdate}></Menu>
            {
             section === 'about' && <Aboutme dataClass={(section === 'about') ? 'open' : 'close'}></Aboutme>
            }

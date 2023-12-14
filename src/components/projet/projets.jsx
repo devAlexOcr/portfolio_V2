@@ -1,4 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
+
+import Slider from './slider';
+import Description from './description';
+
 
 import './projets.css';
 
@@ -21,12 +25,21 @@ function Projets({dataClass}) {
         .then(function(data) {
             setDataProjets(data);
         })
+
     }, [setDataProjets])
 
-    
+    const [indexProjet, setIndexProjet] = useState(1)
+
+    const handleIndex = useCallback((index) => {
+        setIndexProjet(index);
+    }, [setIndexProjet])
+
+    console.log(indexProjet);
+
     return (
         <div id='projets' className={`glass ${dataClass}`}>
-
+            <Slider dataProjets={[dataProjets]} onUpdateIndexProjet={handleIndex} indexProjet={indexProjet}> </Slider>
+            <Description dataProjets={[dataProjets]} indexProjet={indexProjet}> </Description>    
         </div>
     )
 }

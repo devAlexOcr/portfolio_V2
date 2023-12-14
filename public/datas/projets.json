@@ -22,8 +22,8 @@
         "gitHub": "https://github.com/devAlexOcr/AD_2_booki_102022",
         "url": "https://devalexocr.github.io/AD_2_booki_102022/",
         "languages": [
-            "../assets/logos/html5_logo.png",
-            "../assets/logos/css3_logo.png"
+            "../assets/images/logos/html5_logo.png",
+            "../assets/images/logos/css3_logo.png"
         ]
     },
     {
@@ -47,9 +47,9 @@
         ],
         "gitHub": "https://github.com/devAlexOcr/AD_3_PortFolio_SB_122022",
         "languages": [
-            "../assets/logos/html5_logo.png",
-            "../assets/logos/css3_logo.png",
-            "../assets/logos/javascript_logo.png"  
+            "../assets/images/logos/html5_logo.png",
+            "../assets/images/logos/css3_logo.png",
+            "../assets/images/logos/javascript_logo.png"  
         ] 
     },
     {
@@ -82,9 +82,9 @@
         "gitHub": "https://github.com/devAlexOcr/AD_5_Nina_carducci_032023",
         "url": "https://devalexocr.github.io/AD_5_Nina_carducci_032023/",
         "languages": [
-            "../assets/logos/html5_logo.png",
-            "../assets/logos/css3_logo.png",
-            "../assets/logos/javascript_logo.png"    
+            "../assets/images/logos/html5_logo.png",
+            "../assets/images/logos/css3_logo.png",
+            "../assets/images/logos/javascript_logo.png"    
         ] 
     },
     {
@@ -110,8 +110,8 @@
         ],
         "gitHub": "https://github.com/devAlexOcr/AD_6_Kasa_042023",
         "languages": [
-            "../assets/logos/React_logo.png",
-            "../assets/logos/sass_logo.png"  
+            "../assets/images/logos/React_logo.png",
+            "../assets/images/logos/sass_logo.png"  
         ] 
     },
     {
@@ -139,9 +139,9 @@
         ],
         "gitHub": "https://github.com/devAlexOcr/AD_7_Mon_Vieux_Grimoire_062023",
         "languages": [
-            "../assets/logos/javascript_logo.png",
-            "../assets/logos/node_logo.png",
-            "../assets/logos/mongodb_logo.png"
+            "../assets/images/logos/javascript_logo.png",
+            "../assets/images/logos/node_logo.png",
+            "../assets/images/logos/mongodb_logo.png"
         ] 
     },
     {
@@ -152,8 +152,8 @@
         "url": "https://qwirkle.alexandrepaucdetoc.fr/",
         "gitHub": "https://github.com/devAlexOcr/Qwirkle_Score_Counter",
         "languages": [
-            "../assets/logos/React_logo.png",
-            "../assets/logos/sass_logo.png"  
+            "../assets/images/logos/React_logo.png",
+            "../assets/images/logos/sass_logo.png"  
         ]
     }
 ]

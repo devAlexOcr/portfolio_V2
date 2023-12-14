@@ -3,7 +3,7 @@ import React from 'react';
 import './menu.css';
 
 
-function Navbar ({onUpdate}) {
+function Menu ({onUpdate}) {
 
         const clickUpdate =(action) => {
             onUpdate(action);    
@@ -18,7 +18,7 @@ function Navbar ({onUpdate}) {
             <button onClick={()=>clickUpdate('cv')} className='btn_menu'> 
                 <i className="fa-solid fa-diagram-project"></i>  </button>
             <button onClick={()=>clickUpdate('projet')} className='btn_menu'>   
-                <i className="fa-solid fa-code"></i> </button>
+            <i className="fa-regular fa-folder-open"></i> </button>
             <button onClick={()=>clickUpdate('contact')} className='btn_menu'>  
                 <i className="fa-regular fa-envelope"></i> </button>
         </div>
@@ -27,4 +27,4 @@ function Navbar ({onUpdate}) {
 
 
 
-export default Navbar;
+export default Menu;

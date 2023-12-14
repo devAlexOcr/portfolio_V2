@@ -15,7 +15,8 @@ function Cv({dataClass}) {
                 <h2>Formation</h2>
                 <div id='openclassrooms'>
                     <h3>Openclassrooms</h3>
-                    <p>RNCP 36076 - Niveau 5 - Développeur intégrateur web</p>
+                    <p>RNCP 36076 - Niveau 5</p>
+                    <p>Développeur intégrateur web</p>
                 </div>
                 <div id='bts'>
                     <h3>Lycée Pierre et Marie Curie - Versailles</h3>
