@@ -1,0 +1,10 @@
+#description_projet {
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 90%;
+    color: white;
+    font-size: 1vw;
+}

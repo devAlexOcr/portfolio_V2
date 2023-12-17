@@ -11,9 +11,13 @@ function Aboutme ({dataClass}) {
             <div id='portrait'> <img src='./assets/images/profil.jpg' alt='portrait de Alexandre'></img> </div>
             <div id='presentation'>
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;Après une carrière de 10 ans dans le domaine des laboratoires d'analyses de biologie médicale qui m'a permis d'acquérir de nombreuses soft skills telles que l'esprit d'équipe, l'autonomie, la réactivité, j'ai décidé d'évoluer vers le métier de développeur web.<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;En effet ce domaine que j'observe depuis de nombreuses années sur l'aspect technique et nouvelles technologies, a toujours suscité en moi un réel intérêt.<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;D'un naturel curieux, j'ai décidé de me former au sein d'Openclassrooms, pour relever un nouveau challenge professionnel. En effet, l'acquisition de nouvelles compétences ainsi que les nombreux défis techniques rencontrés lors de la réalisation des projets professionnalisants ont été pour moi de véritables stimulants.
+                    Après une carrière de 10 ans dans le domaine des laboratoires d'analyses de biologie médicale qui m'a permis d'acquérir de nombreuses soft skills telles que l'esprit d'équipe, l'autonomie, la réactivité, j'ai décidé d'évoluer vers le métier de développeur web.<br />
+                </p>
+                <p>
+                    En effet ce domaine que j'observe depuis de nombreuses années sur l'aspect technique et nouvelles technologies, a toujours suscité en moi un réel intérêt.<br />
+                </p>
+                <p>
+                    D'un naturel curieux, j'ai décidé de me former au sein d'Openclassrooms, pour relever un nouveau challenge professionnel. En effet, l'acquisition de nouvelles compétences ainsi que les nombreux défis techniques rencontrés lors de la réalisation des projets professionnalisants ont été pour moi de véritables stimulants.
                 </p>
             </div>
             <div id='reseaux'>
@@ -31,7 +35,6 @@ function Aboutme ({dataClass}) {
                 <img src='./assets/images/logos/php_logo.png' alt='logo Php'></img>
                 <img src='./assets/images/logos/mysql_logo.png' alt='logo MySQL'></img>
             </div>
-
         </div>
     );
 };

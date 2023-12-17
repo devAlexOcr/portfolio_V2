@@ -34,8 +34,6 @@ function Projets({dataClass}) {
         setIndexProjet(index);
     }, [setIndexProjet])
 
-    console.log(indexProjet);
-
     return (
         <div id='projets' className={`glass ${dataClass}`}>
             <Slider dataProjets={[dataProjets]} onUpdateIndexProjet={handleIndex} indexProjet={indexProjet}> </Slider>

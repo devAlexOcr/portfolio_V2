@@ -9,7 +9,11 @@
     "d .";
     grid-template-columns: 20%;
     grid-template-rows: auto;
+}
 
+p{
+    text-indent: 20px;
+    text-align: justify;
 }
 
 #portrait{
@@ -36,7 +40,8 @@ img {
     color: white;
     font-size: 1vw;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
     overflow: hidden;
 }
 #presentation p {

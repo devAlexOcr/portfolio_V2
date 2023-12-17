@@ -5,7 +5,7 @@ import './description.css';
 function Description({dataProjets, indexProjet}) {
 
     const projetAfficher = dataProjets[0][indexProjet-1];
-    console.log(projetAfficher)
+
 
     if(!projetAfficher){
         return <></>;
