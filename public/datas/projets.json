@@ -89,6 +89,32 @@
     },
     {
         "id": "4",
+        "name": "Gestion de projet Agile",
+        "objectif": "Mettre en place une méthodologie de travail agile et de collaborer avec le Produc Owner",
+        "description": "Dans le cadre de ma formation, je suis  développeur front-end au sein de l’agence Webgencia. Cette semaine, on vous confie une mission un peu différente de d’habitude. Il ne s’agit pas de développer un site mais de mener, préparer et planifier le projet de développement d’un site. En effet, Qwenta, un de vos clients, souhaite faire développer un “Menu Maker”. Il s’agit d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. C’est l’occasion pour vous de mettre en place une méthodologie de travail agile et de collaborer avec Soufiane, Product Owner. Il vous envoie l’invitation à la réunion de validation du projet qui aura lieu dans 2 semaines avec John, chef de projet chez Qwenta :",
+        "cover": "../assets/images/Projets/Scrum_schema.png",
+        "competence": [
+            "Suivre le déroulement du projet grâce à un outil de gestion de projet",
+            "Rédiger les spécifications techniques d'un projet web à partir de besoin fonctionnels",
+            "Découper les fonctionnalités en taches",
+            "Mettre en place une veille technologique",
+            "Versionner avec Git et GitHub"
+        ],
+        "problematiques": [
+            
+        ],
+        "solutions": [
+
+        ],
+        "gitHub": "",
+        "url": "",
+        "languages": [
+            "../assets/images/logos/padlet_logo.png",
+            "../assets/images/logos/trello_logo.png"
+        ]
+    },
+    {
+        "id": "5",
         "name": "Kasa",
         "objectif": "Création d'une application web de location immobilière avec React",
         "description": "Dans le cadre de ma formation, Kasa me recrute en tant que développeur Frontend en freelance pour développer sa nouvelle plateformeweb. Les principales contrainte reposé sur l'utilisation de React et Sass.",
@@ -115,7 +141,7 @@
         ] 
     },
     {
-        "id": "5",
+        "id": "6",
         "name": "Mon vieux Grimoire",
         "objectif": "Développement du back-end d'un site de notation de livres",
         "description": "Dans la peau d'un développeur back-end en freelance, je suis contacté afin de travailler en collaboration avec un développeur front-end plus expérimenté pour déployer le back-end d'une petite chaîne de librairie souhaitant ouvrir un site de référencement et de notation de livres.",
@@ -145,7 +171,28 @@
         ] 
     },
     {
-        "id": "6",
+        "id": "7",
+        "name": "Portfolio Openclassrooms",
+        "cover": "../assets/images/Projets/portfolio_v1.png",
+        "description": "Dans le cadre de ma formation, j'ai réalisé un portfolio regroupant les projets réalisés lors de celle ci. Cela m'a permis de revoir tout les acquis de ma formation.",
+        "url": "https://alexandrepaucdetoc.fr/",
+        "gitHub": "",
+        "languages": [
+            "../assets/images/logos/React_logo.png",
+            "../assets/images/logos/sass_logo.png",
+            "../assets/images/logos/php_logo.png",
+            "../assets/images/logos/mysql_logo.png"  
+        ],
+        "competence": [
+            "Hébergement d'un site web",
+            "Gestion du site web a l'aide d'un serveur FTP",
+            "Gestion d'une API en PHP",
+            "Mise en place d'une base de donnée MySql",
+            "Gestion des données avec PhpMyAdmin"
+        ]
+    },
+    {
+        "id": "8",
         "name": "Qwirkle Score Counter",
         "cover": "../assets/images/qwirkle_bg.jpg",
         "description": "Pour répondre à la problématique du compte de points lors d'une partie de Qwirkle, j'ai décidé de développer une application web optimisée pour une utilisation sur smartphone.",
@@ -154,6 +201,7 @@
         "languages": [
             "../assets/images/logos/React_logo.png",
             "../assets/images/logos/sass_logo.png"  
-        ]
+        ],
+        "competence": []
     }
 ]

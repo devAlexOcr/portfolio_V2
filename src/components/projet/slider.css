@@ -75,4 +75,5 @@
 
 .logo_techno {
     width: 5vw;
+    filter: drop-shadow( 0 0 30px white);
 }
