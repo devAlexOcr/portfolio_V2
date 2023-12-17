@@ -84,7 +84,8 @@ function Slider({dataProjets, onUpdateIndexProjet, indexProjet}) {
                 
                 {
                     projetAfficher.gitHub && (
-                        <a href={projetAfficher.github} target="_blank" rel="noreferrer">
+                    
+                        <a href={projetAfficher.gitHub} target="_blank" rel="noreferrer">
                             <img  className='logo_techno' src={GitHub} alt='logo gitHub'/>
                         </a>
                     )
