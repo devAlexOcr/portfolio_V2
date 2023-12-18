@@ -10,6 +10,33 @@ function Contact({dataClass}) {
 	const email = useRef();
 	const message = useRef();
 
+	function postMessage () {
+		
+		const contactText = {
+			name : nom.current.value,
+			firstname : prenom.current.value,
+			email : email.current.value,
+			message : message.current.value
+		};
+
+		fetch('https://api.alexandrepaucdetoc.fr/contact', 
+		{
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(contactText)
+		}
+		)
+		.then (res => {
+			document.getElementById('contactForm').reset();
+			
+			return res.json();	
+		})
+		.then (data => {
+			alert(data.message);
+		})
+	}
 
     return (
 
