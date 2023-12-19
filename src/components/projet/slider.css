@@ -63,12 +63,12 @@
 .show{
     display: flex;
     gap: 1vw;
-        img {
-            flex: 1;
-            width: 20%;
-            box-shadow: 0 2px 8px black;
-            cursor: pointer;
-        }
+}
+.show img {
+    flex: 1;
+    width: 20%;
+    box-shadow: 0 2px 8px black;
+    cursor: pointer;
 }
 
 .active{
@@ -76,7 +76,7 @@
 }
 
 .logo_techno {
-    width: 5vw;
+    width: 3vw;
     filter: drop-shadow( 0 0 30px white);
 }
 
