@@ -58,21 +58,30 @@ form {
 
 @media all and (max-width: 1024px) {
 
+    h2 {
+        padding: 5%;
+    }
+    #contactForm > * {
+        padding: 5%;
+    }
     p {
         font-size: 3vw;
-        }
-    form {
-        flex-direction: column;
     }
 
-    
+    form {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
     #form1, #form2 {
         width: 90%;
         margin: auto;       
     }
 
-    label, input {
+    label, input, button, #message {
         font-size: 4vw;
     }
+
+    
 }
 

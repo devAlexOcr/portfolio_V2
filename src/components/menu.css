@@ -16,7 +16,17 @@
     background: none;
     border: none;
     cursor: pointer;
+    padding: 10%;
 }
 .btn_menu:hover i {
     color: white!important;
+}
+
+@media all and (max-width: 1024px) {
+
+    #menu {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
 }

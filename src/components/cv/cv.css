@@ -38,3 +38,17 @@ p {
     box-shadow: 10px 10px 20px black;
 
 }
+
+@media all and (max-width: 1024px) {
+
+    #cv {
+        flex-direction: column;
+        padding: 5%;
+    }
+    #cv > * {
+        width: 80%;
+        margin: 5%;
+        padding: 5%;
+    }
+
+}

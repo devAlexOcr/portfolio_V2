@@ -27,11 +27,11 @@ function Cv({dataClass}) {
                 <h2>Expérience</h2>
                 <div id='freelance'>
                     <h3>Développeur Web frontend</h3>
-                    <p>nov. 2023 - à ce jour</p>
+                    <p>Freelance / nov. 2023 - à ce jour</p>
                 </div>
                 <div id='dev_openclassrooms'>
-                    <h3>Développeur Web front et back end</h3>
-                    <p>oct. 2022 - oct. 2023</p>
+                    <h3>Formation développeur web front et back end</h3>
+                    <p>Openclassrooms / oct. 2022 - oct. 2023</p>
                     <p>Réalisation des différents projets professionnalisant.</p>
                 </div>
                 <div id='technicien'>

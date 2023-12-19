@@ -1,7 +1,5 @@
 #about_me {
     width: 80%;
-    height: 70vh;
-    margin: 10vh;
     display: grid;
     grid-template-areas: 
     "a b"
@@ -70,4 +68,16 @@ img {
 
 #languages img {
     width: 10%;
+}
+
+@media all and (max-width: 1024px) {
+    #about_me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about_me > * {
+        padding: 5%;
+    }
 }

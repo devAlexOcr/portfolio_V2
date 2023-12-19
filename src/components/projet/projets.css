@@ -8,3 +8,35 @@
     align-items: center;
     justify-items: center;
 }
+
+@media all and (max-width: 1024px) {
+    #projets {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #projets > * {
+        padding: 5%;
+        margin: 5%;
+    }
+
+    #slider {
+        display: flex;
+        flex-direction: column;
+        height: 80vw;
+    }
+    .slideshow {
+        height: 50vw;
+    }
+    .logo_techno {
+        width: 15vw;
+    }
+    #description_projet, li {
+        font-size: 3vw;
+    }
+
+    #description_projet > * {
+        padding: 5%;
+        
+    }
+}

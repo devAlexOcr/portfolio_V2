@@ -16,6 +16,7 @@ function App() {
 
     return (
         <section id='Home'>
+
            <Menu onUpdate={handleUpdate}></Menu>
            {
             section === 'about' && <Aboutme dataClass={(section === 'about') ? 'open' : 'close'}></Aboutme>
