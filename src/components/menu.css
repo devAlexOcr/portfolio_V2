@@ -5,6 +5,7 @@
     justify-content: space-around;
     position: absolute;
     top: 85vh;
+    height: auto;
 }
 
 #menu i {
@@ -16,7 +17,7 @@
     background: none;
     border: none;
     cursor: pointer;
-    padding: 7%;
+    padding: 3%;
 }
 .btn_menu:hover i {
     color: white!important;
