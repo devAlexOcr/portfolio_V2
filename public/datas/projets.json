@@ -56,7 +56,7 @@
         "id": "3",
         "name": "PortFolio de Nina Carducci",
         "objectif": "Débuggage et optimisation du site",
-        "description": "Dans le cadre de ma formation, une immerssion dans la peau d'un développeur freelance, je propose mes services d'optimisation SEO à de nouveau clients. Parmis les propects, le site de Nina Carducci. Je lui propose de corriger le code et sa structure afin d'améliorer le cgargement et l'accessibilité du site. Ainsi que l'optimisation des images du site qui sont trop lourdes. Ces différents points étant relevé à partir d'un audit lighthouse complété par une étude de l'accessibilité à l'aide de l'outil Wave.",
+        "description": "Dans le cadre de ma formation, une immerssion dans la peau d'un développeur freelance, je propose mes services d'optimisation SEO à de nouveau clients. Parmis les propects, le site de Nina Carducci. Je lui propose de corriger le code et sa structure afin d'améliorer le chargement et l'accessibilité du site. Ainsi que l'optimisation des images du site qui sont trop lourdes. Ces différents points étant relevé à partir d'un audit lighthouse complété par une étude de l'accessibilité à l'aide de l'outil Wave.",
         "cover": "https://user.oc-static.com/upload/2022/06/22/16559176658498_595_P9_DIW%20-%20Inte%CC%81grateur%20Front-End%20%281%29.jpg",
         "competence": [
             "Optimiser les performances d'un site web",
@@ -117,7 +117,7 @@
         "id": "5",
         "name": "Kasa",
         "objectif": "Création d'une application web de location immobilière avec React",
-        "description": "Dans le cadre de ma formation, Kasa me recrute en tant que développeur Frontend en freelance pour développer sa nouvelle plateformeweb. Les principales contrainte reposé sur l'utilisation de React et Sass.",
+        "description": "Dans le cadre de ma formation, Kasa me recrute en tant que développeur Frontend en freelance pour développer sa nouvelle plateforme web. Les principales contraintes reposées sur l'utilisation de React et Sass.",
         "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
         "competence": [
             "Configurer la navigation entre les pages de l'application avec React Router",
