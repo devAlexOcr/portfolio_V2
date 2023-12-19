@@ -176,7 +176,7 @@
         "cover": "../assets/images/Projets/portfolio_v1.png",
         "description": "Dans le cadre de ma formation, j'ai réalisé un portfolio regroupant les projets réalisés lors de celle ci. Cela m'a permis de revoir tout les acquis de ma formation.",
         "url": "https://alexandrepaucdetoc.fr/",
-        "gitHub": "",
+        "gitHub": "https://github.com/devAlexOcr/AD_8_Portfolio_072023",
         "languages": [
             "../assets/images/logos/React_logo.png",
             "../assets/images/logos/sass_logo.png",
