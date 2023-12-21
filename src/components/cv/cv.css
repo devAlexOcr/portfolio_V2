@@ -15,11 +15,12 @@ h2 {
     margin: 0 0 2vh 0;
 }
 h3 {
-    font-size: 2vh;
+    font-size: 3vh;
     margin: 1.5vh 0 1.5vh 0;
 }
 p {
     margin: 0 0 0 2vh;
+    letter-spacing: normal;
 }
 
 #openclassrooms, #bts, #freelance, #dev_openclassrooms, #technicien {
